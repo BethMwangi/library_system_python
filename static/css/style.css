@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-image: url(../img/lib-bg.jpg);
+    background-attachment: fixed;
 }
 .container {
     width: 60%;
@@ -29,4 +30,8 @@ form {
 
 .sign-in {
     width: 100%;
+}
+.tag {
+    font-family: 'Montserrat', sans-serif;
+    color: crimson;
 }

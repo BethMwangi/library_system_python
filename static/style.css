@@ -13,12 +13,20 @@ body {
 
 .form-label {
     width: 100%;
-    height: 75%;
+    height: 60%;
+}
+h4 {
+    color: crimson;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2%;
 }
 form {
     padding-top: 6%;
 }
+
+/*row two conaining the sign in and sign up button */
+
 .sign-in {
     width: 100%;
-    height: 25%;
 }

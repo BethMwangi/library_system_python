@@ -8,6 +8,17 @@ body {
     height: 350px;
     background-color: whitesmoke;
 }
+
+/*row form with placeholders*/
+
+.form-label {
+    width: 100%;
+    height: 75%;
+}
 form {
     padding-top: 6%;
+}
+.sign-in {
+    width: 100%;
+    height: 25%;
 }

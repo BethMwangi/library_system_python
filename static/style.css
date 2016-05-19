@@ -2,9 +2,12 @@ body {
     background-color: black;
 }
 .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     margin-top: 10%;
     height: 350px;
     background-color: whitesmoke;
+}
+form {
+    padding-top: 6%;
 }

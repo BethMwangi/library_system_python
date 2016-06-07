@@ -6,16 +6,18 @@
     <link rel="stylesheet" type="text/css" href="../static/foundation.min.css">
     <link rel="stylesheet" type="text/css" href="../static/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <script src="../static/js/modernizr.js"></script>
 </head>
 
 <body>
     <div class="container">
 
-        <div class="row form-label">
-            <div class="medium-2 columns">
+        <div class="row one">
+            <div class="medium-1 columns">
                 <br>
             </div>
-            <div class="medium-8 columns">
+            <div class="medium-10 columns form-label">
                 <h4> library Management System </h4>
                 <form action=" " method="post">
                     <label>
@@ -26,30 +28,35 @@
                     </label>
                 </form>
             </div>
-            <div class="medium-2 columns">
+            <div class="medium-1 columns">
                 <br>
             </div>
         </div>
         <div class="row sign-in">
-            <div class="medium-2 columns">
-                <br> </div>
-            <div class="medium-3 columns left">
+
+
+            <div class="large-4 columns left">
                 <p class="tag">New User?</p>
 
                 <button class="button" href="#">Sign up</button>
             </div>
-            <div class="medium-2 columns">
-                <br> </div>
-            <div class="medium-3 columns right">
+
+
+            <div class="large-4 columns right">
                 <p class="tag">Already a User?</p>
                 <button class="button" href="#">Log in</button>
 
-
             </div>
-            <div class="medium-2 columns">
-                <br> </div>
+
 
         </div>
+    </div>
+
+
+
+    <script>
+        $(document).foundation();
+    </script>
 </body>
 
 </html>

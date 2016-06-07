@@ -61,3 +61,13 @@ form {
     font-family: 'Montserrat', sans-serif;
     color: crimson;
 }
+
+.right {
+    float: right;
+    padding-right: 25%;
+}
+
+.left {
+    float: left;
+    padding-left: 25%;
+}

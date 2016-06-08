@@ -1,4 +1,4 @@
-from flask import Flask , render_template, request
+from flask import Flask , render_template, request, redirect, url_for
 
 app = Flask (__name__)
 
@@ -12,12 +12,11 @@ def home():
 def login():
     error = None
     if request.method == 'POST':
-           if valid_login(request.form ['username'],
-                          request.form ['password']):
-              return log_the_user_in(request.form['username'])
-
+           if request.form ['username'] != 'admin' or
+                          request.form ['password'] :
+                     error = 'Invalid username/password. Please try again'
            else:
-            error = 'Invalid username/password'
+           return redirect(url_for('home'))
     return render_template('login.html', error = error)
 
 if __name__ == '__main__':
